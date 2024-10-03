@@ -18,7 +18,8 @@ Createa a method named `lastFirstN` to take two string inputs, `s1` and `s2` as 
 After it takes the three inputs, it should return a string that is made up of the last `n` letters of `s1` and the first `n` letters of `s2`.
 
 Assume that `n` is between 0 and the length of the shorter string.
-$$ 0 \leq n \leq \min(\verb{s1.length()}, \verb{s2.length()}) $$
+
+$$ 0 \leq n \leq \min(\verb|s1.length()|,\ \verb|s2.length()|) $$
 
 Utlize user input, and test your method in the `main()` method to make sure it works as intended.
 
