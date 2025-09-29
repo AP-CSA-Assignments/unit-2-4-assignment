@@ -23,13 +23,6 @@ $$ 0 \leq n \leq \min(\verb|s1.length()|,\ \verb|s2.length()|) $$
 
 Utlize user input, and test your method in the `main()` method to make sure it works as intended.
 
-```java
-public static void lastFirstN(String s1, String s2, int n)
-{
-
-}
-```
-
 Sample run
 ```
 Sample inputs:
@@ -39,6 +32,13 @@ butter
 
 Output:
 eambut
+```
+
+```java
+public static void lastFirstN(String s1, String s2, int n)
+{
+
+}
 ```
 
 ## Problem 2 - stringManip
